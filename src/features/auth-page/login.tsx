@@ -24,7 +24,7 @@ export const LogIn: FC<LoginProps> = (props) => {
     <Card className="flex gap-2 flex-col min-w-[350px] shadow-lg border-2 border-primary/20">
       <CardHeader className="gap-3 text-center">
         <CardTitle className="text-3xl flex gap-3 justify-center items-center">
-          <Avatar className="h-10 w-10">
+          <Avatar className="h-10 w-10 bg-primary/10">
             <AvatarImage src={"ai-icon.png"} />
           </Avatar>
           <span className="text-primary font-bold">{AI_NAME}</span>
@@ -64,7 +64,7 @@ export const LogIn: FC<LoginProps> = (props) => {
         )}
       </CardContent>
       <CardFooter className="text-xs text-center justify-center text-muted-foreground">
-        © {new Date().getFullYear()} Kaopanwa AI Technologies. All rights reserved.
+        © {new Date().getFullYear()} Nong 9 AI Technologies. All rights reserved.
       </CardFooter>
     </Card>
   );
